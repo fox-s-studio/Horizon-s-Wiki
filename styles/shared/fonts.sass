@@ -1,0 +1,15 @@
+@include font-face(Montserrat-Regular, '../fonts/Montserrat/Montserrat-Regular', null, null, ttf )
+@include font-face(Montserrat-Light, '../fonts/Montserrat/Montserrat-Light', null, null, ttf )
+@include font-face(TwCenMTStd-Regular, '../fonts/TwCenMTStd/TwCenMTStd-Regular', null, null, otf )
+@include font-face(TwCenMTStd-Light, '../fonts/TwCenMTStd/TwCenMTStd-Light', null, null, otf )
+@import '../fonts/FontAwesome/css/all.css'
+
+$font-main : 'Montserrat-Regular'
+$font-main-l : 'Montserrat-Light'
+$font-secondary : 'TwCenMTStd-Regular'
+$font-secondary-l : 'TwCenMTStd-Light'
+
+=title
+    font-family: $font-main
+=subtitle
+    font-family: $font-secondary
