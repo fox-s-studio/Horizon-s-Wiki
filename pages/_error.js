@@ -1,4 +1,5 @@
 import Styled from 'styled-components';
+import '../styles/shared/index.scss'
 
 function Error({ statusCode }) {
   return (
